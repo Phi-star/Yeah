@@ -1,0 +1,144 @@
+/* General Reset */
+body, h1, h2, p, input, select, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+  background-color: #4b0082;
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Main Content Styling */
+.main-content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.intro-section .title {
+  font-size: 28px;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+.intro-section .description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.intro-section .highlight {
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.intro-section .highlight.yellow {
+  color: #ffa500;
+}
+
+/* Chat Button Styling */
+.chat-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4b0082;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.chat-button:hover {
+  background-color: #6a0dad;
+}
+
+/* Billing Information Section */
+.billing-info {
+  margin-top: 20px;
+}
+
+.billing-info .sub-title {
+  font-size: 22px;
+  color: #4b0082;
+  margin-bottom: 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-input {
+  width: 48%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4b0082;
+  color: white;
+  border-top: 2px solid #6a0dad;
+}
+
+footer a {
+  color: #ffa500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Space for Picture at the Top */
+.header::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 200px;
+  background: url('paola-picture.jpg') no-repeat center center/cover;
+}
